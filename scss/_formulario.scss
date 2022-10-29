@@ -1,0 +1,113 @@
+.formulario {
+  min-height: 87vh;
+  background-image: $BackgroundLinearGradient, url(../images/fondo-pedidos.jpg);
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-form {
+  width: auto;
+  margin: 20px 0;
+  background: linear-gradient(rgba(73, 68, 68, 0.356), rgba(70, 59, 59, 0.2));
+  border-radius: 15px;
+  padding: 10px;
+
+  text-transform: uppercase;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contenido-pedido {
+  width: 50%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.estilo-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  color: white;
+  text-align: center;
+  width: 300px;
+  font-weight: 500;
+}
+
+.input {
+  display: block;
+  width: 300px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px 0;
+  text-align: center;
+  outline: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.btn-form {
+  outline: none;
+  color: $Blanco;
+  background-color: #041441;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.2);
+    transition: 1s all ease;
+  }
+}
+
+.subtitulo {
+  margin: 10px 0;
+  color: $Blanco;
+  text-transform: uppercase;
+}
+
+.titulo-pedido {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: $AmarilloImportant;
+  text-shadow: $TextShadow;
+  margin: 10px 0;
+
+  justify-content: start;
+  align-items: center;
+}
+
+.wsp {
+  text-decoration: none;
+  color: green;
+  font-size: 30px;
+}
+
+.consulta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+
+  i {
+    padding: 10px;
+  }
+}
+
+textarea {
+  resize: none;
+}

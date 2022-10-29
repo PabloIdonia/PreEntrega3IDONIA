@@ -1,0 +1,18 @@
+.navbar {
+  background-color: $Violeta;
+
+  .nav-link {
+    color: $Blanco;
+    text-shadow: $TextShadow;
+    font-family: $Font-Family;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+
+    &:hover {
+      color: rgb(151, 150, 150) !important;
+      text-shadow: $TextShadow;
+      transform: scale(0.9);
+    }
+  }
+}

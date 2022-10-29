@@ -1,0 +1,59 @@
+.banner-index {
+  background-image: $BackgroundLinearGradient, url(../images/fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  color: $AmarilloImportant;
+  text-shadow: $TextShadow;
+  margin: 0;
+
+  h1 {
+    text-transform: uppercase;
+  }
+
+  p {
+    color: $Blanco;
+    text-align: start;
+    font-size: 20px;
+  }
+
+  button {
+    color: $Blanco;
+  }
+}
+
+h2 {
+  background-color: $Violeta;
+  text-transform: uppercase;
+  color: $AmarilloImportant;
+  text-shadow: $TextShadow;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.nleft {
+  background-image: url(../images/formulario.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.nright {
+  background-color: rgba(107, 48, 48, 0.75);
+
+  h3 {
+    text-align: center;
+    color: rgb(255, 255, 1) !important;
+    text-shadow: $TextShadow;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+
+  p {
+    color: $Blanco;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 20px;
+  }
+}

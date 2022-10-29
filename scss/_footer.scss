@@ -1,0 +1,19 @@
+footer {
+  background-color: $Violeta;
+  color: $Blanco;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px;
+
+  i {
+    font-size: 30px;
+    color: rgb(96, 185, 141);
+    &:hover {
+      color: aquamarine;
+      text-shadow: $TextShadow;
+      transform: scale(0.9);
+    }
+  }
+}
