@@ -310,10 +310,11 @@ textarea {
   resize: none; }
 
 .contenido-ferias {
-  min-height: 87vh;
+  min-height: 90vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/fondo-ferias.jpg);
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  margin: 0; }
   .contenido-ferias .titulo-ferias {
     text-align: center;
     color: #ffff01 !important;
@@ -322,18 +323,18 @@ textarea {
     text-transform: uppercase;
     padding: 20px; }
 
-.contenido {
+.contenido .ubicacion {
+  padding: 10%;
+  color: #fff !important;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 10px; }
-  .contenido .ubicacion {
-    padding-top: 10%;
-    color: #fff !important;
-    font-size: 30px;
-    text-align: center; }
-  .contenido .maps {
-    padding-top: 5%;
-    padding-left: 5%;
-    justify-items: center;
-    align-items: center; }
-  .contenido iframe {
-    border-radius: 20px;
-    border: 2px solid grey; }
+
+.contenido iframe {
+  border-radius: 30px;
+  padding: 30px;
+  width: 800px;
+  height: 600px;
+  border-radius: 10px; }
