@@ -98,46 +98,119 @@ h2 {
   width: 400px;
   margin: 20px;
   border: 2px solid black; }
+  .item:hover {
+    transform: scale(0.95);
+    transition: 1s all ease;
+    color: black; }
   .item p {
     color: #ffff01;
     text-shadow: 0 0 5px #000;
     text-transform: uppercase;
     padding: 10px; }
-    .item p:hover {
-      transform: scale(0.95);
-      transition: 1s all ease;
-      color: black; }
 
 .imagenes {
   justify-content: center;
   align-items: center;
   padding: 100px; }
 
-.item1Pan {
-  background-image: url(../images/brioche.jpeg);
+.itemPan1 {
+  background-image: url(../images/brioche.jpeg); }
+
+.itemPan2 {
+  background-image: url(../images/croissant.jpeg); }
+
+.itemPan3 {
+  background-image: url(../images/cremona.jpeg); }
+
+.itemPan4 {
+  background-image: url(../images/pansemillas.jpeg); }
+
+.itemPan5 {
+  background-image: url(../images/budin.jpeg); }
+
+.itemPan1 {
   background-position: center;
   background-size: cover;
   border-radius: 15px; }
 
-.item2Pan {
-  background-image: url(../images/croissant.jpeg);
+.itemPan2 {
   background-position: center;
   background-size: cover;
   border-radius: 15px; }
 
-.item3Pan {
-  background-image: url(../images/cremona.jpeg);
+.itemPan3 {
   background-position: center;
   background-size: cover;
   border-radius: 15px; }
 
-.item4Pan {
+.itemPan4 {
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px; }
+
+.itemPan5 {
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px; }
+
+.galeria-pasteleria {
+  min-height: 87vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/fondo-pasteleria.jpg);
+  background-position: center;
+  background-size: cover; }
+  .galeria-pasteleria .titulo-pasteleria {
+    text-align: center;
+    color: #ffff01 !important;
+    font-size: 45px;
+    text-shadow: 0 0 5px #000;
+    text-transform: uppercase;
+    padding: 20px; }
+
+.item {
+  height: 250px;
+  width: 400px;
+  margin: 20px;
+  border: 2px solid black; }
+  .item:hover {
+    transform: scale(0.95);
+    transition: 1s all ease;
+    color: black; }
+  .item p {
+    color: #ffff01;
+    text-shadow: 0 0 5px #000;
+    text-transform: uppercase;
+    padding: 10px; }
+
+.imagenes {
+  justify-content: center;
+  align-items: center;
+  padding: 100px; }
+
+.item1Pas {
+  background-image: url(../images/cocoydulce.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px; }
+
+.item2Pas {
+  background-image: url(../images/pastafrola.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px; }
+
+.item3Pas {
+  background-image: url(../images/rogel.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px; }
+
+.item4Pas {
   background-image: url(../images/pansemillas.jpeg);
   background-position: center;
   background-size: cover;
   border-radius: 15px; }
 
-.item5Pan {
+.item5Pas {
   background-image: url(../images/budin.jpeg);
   background-position: center;
   background-size: cover;
@@ -204,8 +277,7 @@ h2 {
   font-weight: 500;
   cursor: pointer; }
   .btn-form:hover {
-    transform: scale(1.2);
-    transition: 1s all ease; }
+    transform: scale(0.9); }
 
 .subtitulo {
   margin: 10px 0;
@@ -236,3 +308,32 @@ h2 {
 
 textarea {
   resize: none; }
+
+.contenido-ferias {
+  min-height: 87vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/fondo-ferias.jpg);
+  background-position: center;
+  background-size: cover; }
+  .contenido-ferias .titulo-ferias {
+    text-align: center;
+    color: #ffff01 !important;
+    font-size: 45px;
+    text-shadow: 0 0 5px #000;
+    text-transform: uppercase;
+    padding: 20px; }
+
+.contenido {
+  margin: 10px; }
+  .contenido .ubicacion {
+    padding-top: 10%;
+    color: #fff !important;
+    font-size: 30px;
+    text-align: center; }
+  .contenido .maps {
+    padding-top: 5%;
+    padding-left: 5%;
+    justify-items: center;
+    align-items: center; }
+  .contenido iframe {
+    border-radius: 20px;
+    border: 2px solid grey; }

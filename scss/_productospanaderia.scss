@@ -1,0 +1,69 @@
+.galeria-panaderia {
+  min-height: 87vh;
+  background-image: $BackgroundLinearGradient,
+    url(../images/fondo-panaderia.jpg);
+  background-position: center;
+  background-size: cover;
+
+  h3 {
+    text-align: center;
+    color: rgb(255, 255, 1) !important;
+    font-size: 45px;
+    text-shadow: $TextShadow;
+    text-transform: uppercase;
+    padding: 20px;
+  }
+}
+
+.item {
+  height: 250px;
+  width: 400px;
+  margin: 20px;
+  border: 2px solid black;
+  &:hover {
+    transform: scale(0.95);
+    transition: 1s all ease;
+    color: black;
+  }
+  p {
+    color: rgb(255, 255, 1);
+    text-shadow: 0 0 5px #000;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+}
+
+.imagenes {
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.itemPan1 {
+  background-image: url(../images/brioche.jpeg);
+}
+
+.itemPan2 {
+  background-image: url(../images/croissant.jpeg);
+}
+
+.itemPan3 {
+  background-image: url(../images/cremona.jpeg);
+}
+
+.itemPan4 {
+  background-image: url(../images/pansemillas.jpeg);
+}
+
+.itemPan5 {
+  background-image: url(../images/budin.jpeg);
+}
+
+@for $item from 1 through 5 {
+  .itemPan#{$item} {
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+  }
+}
+

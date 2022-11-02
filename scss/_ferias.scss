@@ -1,0 +1,39 @@
+.contenido-ferias{
+    min-height: 87vh;
+    background-image: $BackgroundLinearGradient, url(../images/fondo-ferias.jpg);
+    background-position: center;
+    background-size: cover;
+
+    .titulo-ferias{
+        text-align: center;
+        color: rgb(255, 255, 1) !important;
+        font-size: 45px;
+        text-shadow: $TextShadow;
+        text-transform: uppercase;
+        padding: 20px;
+    }
+}
+
+.contenido{
+    margin: 10px;
+    .ubicacion{
+        padding-top: 10%;
+        color: $Blanco;
+        font-size: 30px;
+
+        text-align: center;
+    }
+
+    .maps{
+        padding-top: 5%;
+        padding-left: 5%;
+
+        justify-items: center;
+        align-items: center;
+    }
+
+    iframe{
+        border-radius: 20px;
+        border: 2px solid grey;
+    }
+}
